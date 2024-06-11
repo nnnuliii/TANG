@@ -1,0 +1,18 @@
+/*01*/
+.jieyugroup01 {
+    height: 330px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+    background-image: url('../image/wanguo/wanguobg.png');
+}
+
+/*结语*/
+.groupWe{margin-bottom: 1.4em; }
+.groupWe .imgBg{ width:4.88em; height: 5.12em;background: url('../image/jieyu/tu-1-bg.png') no-repeat center center; background-size:auto 100%;  margin: 0 auto;position: relative; overflow: hidden;}
+.groupWe .imgBg01{ height:100%;background: url('../image/jieyu/tu-1-bg_left.png') no-repeat left center; background-size:auto 100%;}
+.groupWe .imgBg02{ height:100%;background: url('../image/jieyu/tu-1-bg_right.png') no-repeat right center; background-size:auto 100%;}
+.groupWe .text01{ text-align: center; font-size: .59em;color: #25343e; font-family: "VNI-HLThuphap";}
+.groupWe p{width:21.04em;margin: 0 auto;position: relative;display: none;color: rgb(1 1 1);position: absolute;top: 18%;left: 50%;height: 63.87%;transform: translateX(-123%);}
+.groupWe p img {width: auto;vertical-align: top;height: 100%;}
+.groupWe p.text01{ display: block;}

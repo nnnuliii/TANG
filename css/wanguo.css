@@ -1,0 +1,168 @@
+/*pt*/
+#pt1 {
+    background-image: url('../image/wanguo/wanguobg.png');
+    background-repeat: repeat; /* 设置背景重复 */
+    background-position: top center; /* 设置背景位置 */
+}
+
+/*01*/
+.wanguogroup01 {
+    height: 750px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wanguogroup01 .tu-1{
+    position:absolute;
+    left:0%;
+    bottom:0%;
+    width: 40%; /* 设置图片的宽度 */
+}
+
+.wanguogroup01 .tu-1-2{
+    position:absolute;
+    right:0%;
+    bottom:0%;
+    width: 40%; /* 设置图片的宽度 */
+}
+
+.wanguogroup01 .tu-1-3{
+    position:absolute;
+    right:0%;
+    top:5%;
+    width: 25%; /* 设置图片的宽度 */
+}
+
+.wanguogroup01 .grouptext-01{
+    width:45%;
+    left:27%;
+    line-height:1.2em;
+    padding-top: 100px;
+    position: relative;
+    z-index: 5;
+}
+
+/*02地图占位*/
+.wanguogroup02 {
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wanguogroup02 .tu-02{
+    position:absolute;
+    left:8%;
+    top:7%;
+    width: 60%; /* 设置图片的宽度 */
+}
+
+.wanguogroup02 .tu-02-2{
+    position:absolute;
+    left:6%;
+    top:3%;
+    width: 25%; /* 设置图片的宽度 */
+}
+
+.wanguogroup02 .tu-02-3{
+    position:absolute;
+    left:0%;
+    bottom:10%;
+    width: 23%; /* 设置图片的宽度 */
+}
+
+.wanguogroup02 .grouptext-02{
+    width:40%;
+    left:60%;
+    line-height:1.2em;
+    padding-top: 100px;
+    position: relative;
+    z-index: 5;
+}
+
+/*03*/
+.wanguogroup03 {
+    height: 550px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wanguogroup03 .tu-3{
+    position:absolute;
+    left:0%;
+    bottom:-5%;
+    width: 45%; /* 设置图片的宽度 */
+}
+
+.wanguogroup03 .tu-3-2{
+    position:absolute;
+    right:10%;
+    top:0%;
+    width: 30%; /* 设置图片的宽度 */
+}
+
+.wanguogroup03 .grouptext-03{
+    width:50%;
+    left:45%;
+    line-height:1.2em;
+    padding-top: 100px;
+    position: relative;
+    z-index: 5;
+}
+
+/*04*/
+.wanguogroup04 {
+    height: 350px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wanguogroup04 .tu-4{
+    position:absolute;
+    right:0%;
+    bottom:0%;
+    width: 45%; /* 设置图片的宽度 */
+}
+
+.wanguogroup04 .grouptext-04{
+    width:40%;
+    left:15%;
+    line-height:1.2em;
+    padding-top: 70px;
+    position: relative;
+    z-index: 5;
+}
+
+/*05*/
+.wanguogroup05 {
+    height: 1000px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wanguogroup05 .tu-5{
+    position:absolute;
+    left:0%;
+    bottom:0%;
+    width: 50%; /* 设置图片的宽度 */
+}
+
+.wanguogroup05 .tu-5-2{
+    position:absolute;
+    right:9%;
+    top:45%;
+    width: 40%; /* 设置图片的宽度 */
+}
+
+.wanguogroup05 .grouptext-05{
+    width:30%;
+    left:55%;
+    line-height:1.2em;
+    padding-top: 150px;
+    position: relative;
+    z-index: 5;
+}

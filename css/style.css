@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*垂类选择  导航页*/
+
+.portal{width: 100%; height: 100%; position: absolute; top:0; left:0; background: rgb(255 255 255) url('../image/封面素材/背景.png') repeat; background-size:100% auto; overflow: hidden;z-index: 0;background-attachment: fixed;}
+.portal .partyBack{  box-shadow: 0 0 50px 20px rgb(135 111 71 / 40%);background-repeat: no-repeat; background-position: center center; background-size:100% auto;width: 100%; height: 100%;position:absolute;bottom:0; left:0;z-index: 1;}
+.portal.portalBack,.portal.portalBackCur{background:rgb(255 255 255) url('../image/封面素材/背景.png') no-repeat; background-size:100% auto;background-attachment: fixed;}
+
+.portal .partyBack .PartAnim{position: absolute;bottom:0;left:0; z-index: 1; display: none; width: 100%; }
+.portal .partyBack .PartAnim canvas{  width: 100% !important; height: auto !important;  }
+.portal .partyBack .PartAnim div>div{ width: auto !important; height: auto !important; }
+
+.portal .partyBack .PartAnim #shijing{ width: 121.3% !important; height: auto !important; }
+.portal .partyBack .PartAnim #children{ width:115.3% !important; height: auto !important; }
+.portal .partyBack .PartAnim #yiren{ width:115.3% !important; height: auto !important; }
+.portal .partyBack .PartAnim.Part04Anim{width:100% !important; height: auto !important; }
+.portal .partyBack .PartAnim #shinv{ width:115.5% !important; height: auto !important; }
+
+
+.portal .partyBack .PartAnim.collect{ display: block;}
+.portal .partyBack .PartAnim.collectCur{ display: block; z-index: 2;}
+
+.portal .partyPart{width: 76.825%;height: auto;margin: 0 auto;z-index: 2;margin: 0 auto;top: 50%;transform:translateY(-47.3%);position: relative;}
+.portal .partyPart img{ display: block;}/*   box-shadow: 0 0 50px 20px rgb(135 111 71 / 40%);*/
+.portal .partyPart .PartConIcon{ position: absolute;height:7.75em; bottom: -2.5em; left: 0; width: 100%; z-index: 2; }
+.portal .partyPart .PartIcon{ cursor: pointer;height:100%; position:absolute; bottom:0; left:0; background-position: bottom center;background-size: 100% auto;}
+.portal .partyPart .Part01{ width:6.5em;background-image:url('../image/封面素材/人1.png');left:-0.2em;}
+.portal .partyPart .Part02{ width:6em; background-image:url('../image/封面素材/人2.png');left:5.5em;}
+.portal .partyPart .Part03{ width:6em; background-image:url('../image/封面素材/人3.png');left:11em;}
+.portal .partyPart .Part04{ width:5em; background-image:url('../image/封面素材/人4.png'); left:17em;}
+
+
+.portal .partyPart .Part01.collect,.portal .partyPart .Part01.collectCur{background-image:url('../image/封面素材/人1L.png');} 
+.portal .partyPart .Part02.collect,.portal .partyPart .Part02.collectCur{background-image:url('../image/封面素材/人2L.png');}
+.portal .partyPart .Part03.collect,.portal .partyPart .Part03.collectCur{background-image:url('../image/封面素材/人3L.png');}
+.portal .partyPart .Part04.collect,.portal .partyPart .Part04.collectCur{background-image:url('../image/封面素材/人4L.png');}
+
+
+.portal .other{ width: 30%;height:1.04em; padding-right: 10.42%;display: none; position: absolute;top: 0;right: 0;}
+.portal .other p{ padding-top:.31em; height:.43em;}
+.portal .other span{ display:block; float: right;height:.43em;position: relative; border-right:1px dotted #576167;text-transform: Uppercase;}
+.portal .other span a{font-size: .33em; line-height:1.3em; display: block; color: #000000; padding:0 .91em; text-decoration: none;}
+.portal .other .share{ margin-left:.30em; border-right: 0; background: url(https://news.cgtn.com/event/2022/The-Song-Painted/style/img/portal/share.png) no-repeat center center; width: .37em; height:.43em; background-size: 100% auto; display: inline-block;cursor: pointer;}
+
+
+.partyPartContent{ width:100%; position: relative; z-index: 9;display: none; } 
+.partyPartContent img{ width: 100%; vertical-align: bottom;}
+.partyPartContent .series{ display: none;width: 100%;}
+
+/*花背景*/
+.flower-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/封面素材/花.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 0; /* 确保背景图片在其他内容的后面 */
+}
+
+/*各部分标题样式*/
+.image{
+    background-image: url('../image/封面素材/背景.png');
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 936px;
+    width:100%;
+}
+
+.imagefont{
+    background-image: url('../image/封面素材/字背景.png');
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 936px;
+    width:100%;
+}
+
+.image1{
+    background-image: url('../image/标题/万国朝未央背景.png');
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 936px;
+    width:100%;
+}
+
+.image2{
+    background-image: url('../image/标题/商贸经通背景.png');
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 936px;
+    width:100%;
+    position: relative; /* 相对定位 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+.image3{
+    background-image: url('../image/标题/广纳贤才背景.png');
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 936px;
+    width:100%;
+    position: relative; /* 相对定位 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+.image4{
+    background-image: url('../image/标题/文化荟萃背景.png');
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 936px;
+    width:100%;
+    position: relative; /* 相对定位 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+.resized-image {
+    width: 55%; /* 根据需要调整宽度 */
+    height: 55%; /* 根据需要调整高度 */
+    object-fit: contain; /* 保持图片比例，完整显示图片 */
+    z-index: 1;/* 确保图片在背景之上 */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.resized-image03 {
+    width: 50%; /* 根据需要调整宽度 */
+    height: 50%; /* 根据需要调整高度 */
+    object-fit: contain; /* 保持图片比例，完整显示图片 */
+    z-index: 1;/* 确保图片在背景之上 */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.imagecankao{
+    background-image: url('../image/封面素材/背景.png');
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    width:100%;
+}
+

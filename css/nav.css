@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 40px;
+  }/* 设置导航栏样式 */
+
+  #menu .navbar-brand {
+    margin-right: auto; /* 将“导航”居左，其他链接居右 */
+    font-family: 'fz_b';
+    color: #f0e9e3; /* 正常状态下的颜色 */
+  }
+
+  #menu .navbar-collapse {
+    justify-content: flex-end; /* 将导航链接居右 */
+  }
+
+  .navbar {
+    background-color: #9ab9a2 !important; /* 修改导航栏的背景颜色 */
+  }
+
+  .navbar-hidden {
+    display: none !important;
+  }
+
+  #menu a.nav-link {
+    color: #f0e9e3; /* 正常状态下的颜色 */
+    font-family: 'fz_b'; /* 修改字体类型 */
+    font-size: 20px; /* 修改字体大小 */
+    font-weight: bold; /* 修改字体粗细 */
+    text-decoration: none; /* 去除下划线 */
+    margin-right: 20px; /* 设置导航链接之间的水平间距 */
+}
+
+#menu a.nav-link:hover {
+    color: #f7e2cf; /* 鼠标悬停状态下的颜色 */
+}
+
+#menu a.nav-link:active {
+    color: #f0e9e3; /* 链接被点击时的颜色 */
+}
+
+
+  #menu a {
+    font-size: 20px; /* 修改导航链接文字字号 */
+    font-weight: bold; /* 修改导航链接文字字重 */
+    text-decoration: none; /* 去除链接的下划线 */
+    margin-right: 20px; /* 设置导航链接之间的水平间距，根据需要调整值 */
+  }
+
+  .content {
+    padding: 0px;
+  }
+
+
+  .scrolling-text-container {
+    white-space: nowrap;
+    color: #4a312c;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: -5px;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+}
+
+.scrolling-text-inner {
+    animation: scrollText 10s linear infinite;
+    display: inline-block;
+    background: linear-gradient(90deg, #f5aec0, #f5aec0); /* 改变背景颜色 */
+    color: #4a312c;
+    padding: 6px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+.statement1 {
+    animation: scrollText1 9s linear infinite;
+}
+
+.statement2 {
+    animation: scrollText2 13s linear infinite;
+}
+
+.statement3 {
+    animation: scrollText3 12s linear infinite;
+}
+
+@keyframes scrollText1 {
+    0% {
+        transform: translateX(630%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}
+@keyframes scrollText2 {
+    0% {
+        transform: translateX(300%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+@keyframes scrollText3 {
+    0% {
+        transform: translateX(400%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+.scroll-fade-in {
+        opacity: 0; /* 初始透明度为0 */
+        transition: opacity 0.5s ease-in-out; /* 添加过渡效果 */
+    }

@@ -1,0 +1,50 @@
+/* styles.css */
+
+.juanma-container {
+    position: relative;
+    z-index: 50;
+    margin-bottom:0px;
+    justify-content: right;
+    right:5%;
+    margin: 0;
+    display: flex;
+    height: 200px;
+}
+
+.circle-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    bottom:20%;
+    background-image: url('../image/shangmao/tu-4.png');
+    background-size: cover; /* 使图片覆盖整个容器 */
+    background-position: center; /* 使图片居中显示 */
+
+}
+
+.dot {
+    position: absolute;
+    width: 20px; /* 缩小圆点的宽度 */
+    height: 20px; /* 缩小圆点的高度 */
+    border-radius: 50%;
+    background-color: #9f8b71; /* 深棕色 */
+    cursor: pointer;
+}
+
+.tooltipjuma {
+    position: absolute;
+    background-color: rgb(183, 167, 123);
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 3px;
+    display: none;
+    font-family:fz_x;
+    z-index: 51;
+    font-size: 13px;
+}
+
+.clicked {
+    background-color: #d2b48c !important; /* 浅棕色 */
+}

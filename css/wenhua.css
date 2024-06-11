@@ -1,0 +1,436 @@
+/*pt*/
+#pt4 {
+    background-image: url('../image/wenhua/wenhuabg.png');
+    background-repeat: repeat; /* 设置背景重复 */
+    background-position: top center; /* 设置背景位置 */
+    background-size: cover; /* 背景图片覆盖整个容器 */
+}
+
+/*01*/
+.wenhuagroup01 {
+    height: 700px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup01 .tu-1{
+    position:absolute;
+    right:0;
+    top:0;
+    width: 90%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup01 .tu-1-2{
+    position:absolute;
+    padding-top: 250px;
+    width: 11%; /* 设置图片的宽度 */
+    left:10%;
+}
+
+.wenhuagroup01 .grouptext-01{
+    width:40%;
+    left:25%;
+    line-height:0.6em;
+    padding-top: 350px;
+    position: relative;
+    z-index: 5;
+}
+
+/*02*/
+.wenhuagroup02 {
+    height: 630px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup02 .tu-2{
+    position:absolute;
+    right:0;
+    bottom:0;
+    width: 35%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup02 .tu-2-2{
+    position:absolute;
+    padding-top: 350px;
+    width: 35%; /* 设置图片的宽度 */
+    left:25%;
+}
+
+.wenhuagroup02 .grouptext-02{
+    width:40%;
+    left:25%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*03*/
+.wenhuagroup03 {
+    height: 500px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup03 .tu-3{
+    position:absolute;
+    left:0;
+    top:0;
+    width: 38%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup03 .grouptext-03{
+    width:50%;
+    left:25%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*04*/
+.wenhuagroup04 {
+    height: 700px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup04 .tu-4{
+    position:absolute;
+    right:5%;
+    top:10%;
+    width: 38%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup04 .grouptext-04{
+    width:45%;
+    left:8%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*05*/
+.wenhuagroup05 {
+    height: 1500px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup05 .tu-5{
+    position:absolute;
+    right:0;
+    bottom:0%;
+    width: 100%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup05 .grouptext-05{
+    width:45%;
+    left:50%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*06*/
+.wenhuagroup06 {
+    height: 680px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup06 .tu-6{
+    position:absolute;
+    left:10%;
+    top:0%;
+    width: 15%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup06 .tu-6-2{
+    position:absolute;
+    left:17%;
+    bottom:0%;
+    width: 25%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup06 .tu-6-3{
+    position:absolute;
+    right:0%;
+    top:15%;
+    width: 55%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup06 .grouptext-06{
+    width:40%;
+    left:10%;
+    line-height:0.6em;
+    padding-top: 100px;
+    position: relative;
+    z-index: 5;
+}
+
+/*07*/
+.wenhuagroup07 {
+    height: 700px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup07 .tu-7{
+    position:absolute;
+    left:50%;
+    bottom:5%;
+    width: 15%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup07 .grouptext-07{
+    width:40%;
+    left:10%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*08*/
+.wenhuagroup08 {
+    height: 650px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup08 .tu-8{
+    position:absolute;
+    left:20%;
+    bottom:0%;
+    width: 30%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup08 .tu-8-2{
+    position:absolute;
+    right:10%;
+    top:20%;
+    width: 30%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup08 .grouptext-08{
+    width:50%;
+    left:10%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*09*/
+.wenhuagroup09 {
+    height: 550px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup09 .tu-9{
+    position:absolute;
+    left:10%;
+    top:10%;
+    width: 30%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup09 .tu-9-2{
+    position:absolute;
+    left:35%;
+    bottom:30%;
+    width: 15%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup09 .tu-9-3{
+    position:absolute;
+    right:10%;
+    bottom:0%;
+    width: 25%; /* 设置图片的宽度 */
+}
+
+/*10*/
+.wenhuagroup10 {
+    height: 530px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup10 .tu-10{
+    position:absolute;
+    left:0%;
+    top:13%;
+    width: 50%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup10 .grouptext-10{
+    width:40%;
+    left:50%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*11*/
+.wenhuagroup11 {
+    height: 900px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup11 .tu-11{
+    position:absolute;
+    left:80%;
+    top:0%;
+    width: 15%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup11 .grouptext-11{
+    width:40%;
+    left:35%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*12*/
+.wenhuagroup12 {
+    height: 700px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup12 .tu-12{
+    position:absolute;
+    left:0%;
+    top:0%;
+    width: 35%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup12 .tu-12-2{
+    position:absolute;
+    right:0%;
+    top:5%;
+    width: 20%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup12 .grouptext-12{
+    width:45%;
+    left:35%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*13*/
+.wenhuagroup13 {
+    height: 550px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup13 .tu-13{
+    position:absolute;
+    right:0%;
+    top:0%;
+    width: 35%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup13 .grouptext-13{
+    width:50%;
+    left:10%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*14*/
+.wenhuagroup14 {
+    height: 700px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup14 .tu-14{
+    position:absolute;
+    left:0%;
+    bottom:0%;
+    width: 35%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup14 .tu-14-2{
+    position:absolute;
+    right:0%;
+    top:15%;
+    width: 20%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup14 .grouptext-14{
+    width:45%;
+    left:35%;
+    line-height:0.6em;
+    padding-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+/*15*/
+.wenhuagroup15 {
+    height: 550px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.wenhuagroup15 .tu-15{
+    position:absolute;
+    width: 30%; /* 设置图片的宽度 */
+    z-index: 3;
+    left:0%;
+    top:5%;
+}
+
+.wenhuagroup15 .tu-15-2{
+    position: absolute;
+    bottom:0%;
+    left:38%;
+    width: 35%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup15 .tu-15-3{
+    position: absolute;
+    bottom:0%;
+    right:0%;
+    width: 35%; /* 设置图片的宽度 */
+}
+
+.wenhuagroup15 .grouptext-15{
+    width:50%;
+    left:30%;
+    line-height:0.6em;
+    padding-top: 100px;
+    position: relative;
+    z-index: 5;
+}

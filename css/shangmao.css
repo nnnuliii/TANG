@@ -1,0 +1,201 @@
+/*pt*/
+#pt2 {
+    background: url('../image/shangmao/shangmaobg.png') repeat top center;
+    background-size: cover; /* 背景图片覆盖整个容器 */
+}
+
+/*01*/
+.shangmaogroup01 {
+    height: 370px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.shangmaogroup01 .tu-1{
+    position:absolute;
+    right:0;
+    bottom:0;
+    width: 30%; /* 设置图片的宽度 */
+}
+
+.shangmaogroup01 .grouptext-01{
+    width:40%;
+    left:25%;
+    line-height:0.6em;
+    padding-top: 70px;
+    padding-bottom: 13.92em;
+    position: relative;
+    z-index: 5;
+}
+
+.shangmaogroup01 .grouptext-01 p{
+    font-size: 18px;
+}
+
+/*02*/
+.shangmaogroup02 {
+    height: 600px;
+    background-size: 100% auto;
+    width:100%;
+    position: relative;
+}
+
+.shangmaogroup02 .tu-2{
+    position:absolute;
+    left:0;
+    bottom:-10%;
+    width: 32%; /* 设置图片的宽度 */
+}
+
+.shangmaogroup02 .tu-2-2{
+    position: absolute;
+    bottom:5%;
+    left:32%;
+    width: 45%; /* 设置图片的宽度 */
+}
+
+.shangmaogroup02 .tu-2-3{
+    position: absolute;
+    float: right;
+    width: 27%; /* 设置图片的宽度 */
+    right:0%;
+    top:20%;
+}
+
+.shangmaogroup02 .grouptext-02{
+    width:40%;
+    left:35%;
+    line-height:0.6em;
+    padding-top: 0.5em;
+    padding-bottom: 13.92em;
+    position: relative;
+    z-index: 5;
+}
+
+
+/*03*/
+.shangmaogroup03 {
+    height: 200px;
+    width:100%;
+    position: relative;
+}
+
+.shangmaogroup03 .grouptext-03{
+    width:40%;
+    left:30%;
+    line-height:0.6em;
+    padding-top: 0em;
+    position: relative;
+    z-index: 5;
+}
+
+/*04*/
+.shangmaogroup04 {
+    height: 110px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.shangmaogroup04 .tu-4{
+    position:absolute;
+    right:2%;
+    bottom:-8%;
+    width: 33%; /* 设置图片的宽度 */
+}
+
+.shangmaogroup04 .grouptext-04{
+    width:40%;
+    left:23.5%;
+    line-height:0.6em;
+    bottom: 200px; /* 绝对定位上边距 */
+    position: relative;
+    z-index: 5;
+}
+
+
+/*05*/
+.shangmaogroup05 {
+    height: 760px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.shangmaogroup05 .tu-5{
+    position:absolute;
+    left:0%;
+    top:0;
+    width: 41%; /* 设置图片的宽度 */
+    z-index: 3;
+}
+
+.shangmaogroup05 .tu-5-2{
+    position: absolute;
+    top:0%;
+    left:0%;
+    width: 100%; /* 设置图片的宽度 */
+    z-index: 4;
+}
+
+.shangmaogroup05 .grouptext-05{
+    width:30%;
+    left:70%;
+    padding-top: 7.5em;
+    padding-bottom: 13.92em;
+    position: relative;
+    z-index: 5;
+}
+
+/*06*/
+.shangmaogroup06 {
+    height: 400px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.shangmaogroup06 .tu-6{
+    position:absolute;
+    left:55%;
+    top:0;
+    width: 36%; /* 设置图片的宽度 */
+    z-index: 3;
+}
+
+.shangmaogroup06 .grouptext-06{
+    width:30%;
+    left:15%;
+    line-height:0.6em;
+    position: relative;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.8); /* 设置背景颜色，带有透明度 */
+    padding: 0.5px; /* 添加内边距 */
+    border-radius: 0px; /* 添加圆角 */
+}
+
+/*07*/
+.shangmaogroup07 {
+    height: 250px;
+    position: relative;
+    z-index: 2;
+    margin-bottom:0px;
+}
+
+.shangmaogroup07 .tu-7{
+    position:absolute;
+    width: 36%; /* 设置图片的宽度 */
+    z-index: 3;
+    right:0;
+    bottom:0;
+}
+
+.shangmaogroup07 .grouptext-07{
+    width:40%;
+    left:30%;
+    line-height:0.6em;
+    padding-top: 0em;
+    position: relative;
+    z-index: 5;
+}
