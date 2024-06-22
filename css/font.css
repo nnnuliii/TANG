@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*字体样式*/
+@font-face{
+    font-family: 'TrueType_2';
+    src: url(../font/TrueType_2.ttf);
+    }
+
+@font-face{
+    font-family: 'TrueType_1';
+    src: url(../font/TrueType_1.ttf);
+    }
+
+@font-face{
+    font-family: 'fz_x';
+    src: url(../font/fz_x.ttf);
+    }
+
+@font-face{
+    font-family: 'fz_b';
+    src: url(../font/fz_b.ttf);
+    }
+
+@font-face{
+    font-family: 'bgtx';
+    src: url(../font/bgtx.ttf);
+    }
+
+@font-face{
+    font-family: 'jn';
+    src: url(../font/jn.ttf);
+    }
+    
+p {
+    font-size: 18px;
+    font-family:fz_x;
+    width: calc(100% - 60px);
+    max-width: 700px;
+    margin: 30px auto;
+    text-align:justify;
+    line-height: 36px;
+    z-index: 5;
+    }
+
+.cankao{
+    font-size: 15px;
+    font-family:fz_x;
+    width: calc(100% - 60px);
+    max-width: 700px;
+    margin: 0px auto;
+    text-align:justify;
+    line-height: 36px;
+    z-index: 5;
+}
+
+.highlight1{
+    font-weight:bold;
+    color: #5f836b;
+    font-size: 18px;
+}
+
+.highlight2{
+    font-family:jn;
+    color: #5f836b;
+    font-size: 30px;
+}
+
+.highlight3{
+    font-family:jn;
+    font-size: 25px;
+}
+
+.highlight4{
+    font-family:jn;
+    font-size: 50px;
+    color:#5f836b;
+}
+
+.highlight5{
+    font-family:jn;
+    font-size: 40px;
+    color:#5f836b;
+    margin: 0px auto;
+}
+
+.highlight6{
+    font-family:jn;
+    font-size: 70px;
+    color:#5f836b;
+    margin: 0px auto;
+    line-height: 110px;
+}
+.highlight7{
+    font-family:jn;
+    font-size: 40px;
+    color:#5f836b;
+    margin: 15px auto;
+    text-align: right;
+}
+.highlight8{
+    font-family:jn;
+    font-size: 30px;
+    margin: 15px auto;
+    text-align: left;
+}
+
