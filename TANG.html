@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 引入网页的样式 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-Lge2E2XotzMiwH69/MXB72yLpwyENMiOKX8zS8Qo7LDCvaBIWGL+GlRQEKIpYR04" crossorigin="anonymous"></script>
+<!-- 文件夹中的样式 -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/nav.css">
+	<link rel="stylesheet" href="./css/font.css">
+	<link rel="stylesheet" href="./css/shangmao.css">
+	<link rel="stylesheet" href="./css/juanma.css">
+	<link rel="stylesheet" href="./css/xiancai.css">
+	<link rel="stylesheet" href="./css/wenhua.css">
+	<link rel="stylesheet" href="./css/daoyu.css">
+	<link rel="stylesheet" href="./css/wanguo.css">
+	<link rel="stylesheet" href="./css/jieyu.css">
+	<link rel="stylesheet" href="./css/huadong.css">
+	<!--<link rel="stylesheet" href="./css/ertong.css">-->
+<!-- 央视网页的代码 -->
+	<!-- 这串里面应该有点击链接跳转的功能 -->
+	<!--<script language="javascript" src="https://news.cgtn.com/event/2022/The-Song-Painted/JSstart/jquery-3.5.1.min.js"></script>-->
+	<script type="text/javascript" src="./js/configtool.js"></script>
+	
+	
+	<title>大唐万国来朝录</title>
+</head>
+
+<body data-spy="scroll" data-target="#menu" data-offset="56">
+<!-- 导航栏 -->
+<nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light navbar-hidden">
+	<div class="container-fluid">
+	  <a class="navbar-brand">页面导航</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav">
+		  <li class="nav-item"><a class="nav-link" href="#pt0">开篇</a></li>
+		  <li class="nav-item"><a class="nav-link" href="#pt1">万国朝未央</a></li>
+		  <li class="nav-item"><a class="nav-link" href="#pt2">商贸经通</a></li>
+		  <li class="nav-item"><a class="nav-link" href="#pt3">广纳贤才</a></li>
+		  <li class="nav-item"><a class="nav-link" href="#pt4">文化荟萃</a></li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+
+<!-- 封面 -->
+<div class="behindAudioPlay"><audio class="music" id="behindAudioPlay" loop="loop" preload="preload" autoplay="autoplay"></audio></div>
+<div class="portal">
+	<div class="flower-background"></div>
+    <div class="partyPart">
+		<img src="./image/封面素材/字背景.png" width="100%"/>
+		<div class="partyBack">
+			<div class="Part01Anim PartAnim">
+				<img src="./image/封面素材/part00.png" width="100%"/>
+			</div>
+			<div class="Part02Anim PartAnim">
+				<img src="./image/封面素材/part01.png" width="100%"/>
+			</div>
+			<div class="Part03Anim PartAnim">
+				<img src="./image/封面素材/part02.png" width="100%"/>
+			</div>
+			<div class="Part04Anim PartAnim">
+				<img src="./image/封面素材/part03.png" width="100%" />
+			</div>
+		</div>
+		<div class="PartConIcon">
+			<div class="Part01 PartIcon"></div>
+			<div class="Part02 PartIcon"></div>
+			<div class="Part03 PartIcon"></div>
+			<div class="Part04 PartIcon"></div>
+		</div>
+    </div>
+</div>
+	
+<!-- 页面内容 -->
+<div class="content">
+    <!-- 页面内容部分，包括各个章节（pt0, pt1, ...） -->
+	<!-- daoyugroup01 -->
+    <div id="pt0" style="margin-bottom:0px;">
+		<div style="height: 100vh;"></div>
+		<div class="daoyugroup01">
+			<img src="./image/daoyu/tu-1.png" class="tu-1">
+			<img src="./image/daoyu/tu-1-2.png" class="tu-1-2">
+			<div class="grouptext-01">
+				<p class="highlight6">“玉帛朝元万国来，<br>
+					&nbsp;&nbsp;&nbsp;鸡人晓唱五门开”</p>
+				<p class="highlight7">——罗邺《岁仗》</p>
+			</div>
+		</div>
+	</div>
+
+<!-- 万国朝未央 -->
+    <div id="pt1" style="margin-bottom:0px;">
+        <div style="height: 0px;"></div>
+        <div class="image1" style="height: 230px;">
+			<h3><img src="./image/标题/万国朝未央.png" class="resized-image"></h3>
+		</div>
+	<!-- wanguogroup01 -->
+		<div class="wanguogroup01">
+			<img src="./image/wanguo/tu-1.png" class="tu-1">
+			<img src="./image/wanguo/tu-1-2.png" class="tu-1-2">
+			<img src="./image/wanguo/tu-1-3.png" class="tu-1-3">
+			<div class="grouptext-01">
+				<p>唐风雅韵，交往多姿。唐诗之中，绘声绘色，尽展盛唐之交。
+					唐人与来唐之客，<span class="highlight1">或于柳边折枝，或于月下赠诗，送别之情，
+					溢于言表。彼此间，或以文会友，或以诗酬情，情感真挚，赠答往来。</span></p>
+				<p>至于国与国之交，或有和亲之好，缔结姻亲，以结两国之欢；
+					或因疆界之争，剑拔弩张，战火连天。
+					唐诗之中，或歌颂和亲之美，或描绘战争之苦，皆为当时交往之实录也。</p>
+			</div>
+		</div>
+
+	<!-- wanguogroup02 -->
+		<div class="wanguogroup02">
+			<div class="container">
+				<div class="left">
+				  <!-- Fixed image container -->
+				  <div class="image-container">
+					<img id="fixedImage" src="./image/wanguo/image1.png" alt="Fixed Image">
+				  </div>
+				</div>
+				<div class="right">
+				  <!-- Scrollable text -->
+				  <div class="text-container">	
+					<p style="margin-top: 300px;">有唐一代，与其交往的地区和国家，据记载共有七十余国，
+						“凡四番之国，经朝贡之后，自相诛绝及有罪见灭者，盖三百余国。
+						今所在者，七十余番”（(唐)李林甫等撰，
+						陈仲夫点校：《唐六典》卷4《尚书礼部·主客郎中》，中华书局1992年，第129页。）</p>
+					<p class="highlight8" style="margin-top: 300px;">回鹘</p>
+					<p>回鹘于唐玄宗天宝三年（744）建立，
+						是唐的藩属国，唐前期和回鹘间发生过战争。
+						此后，回鹘与唐朝的关系一直较好。</p>
+
+					<p class="highlight8" style="margin-top: 300px;">吐蕃</p>
+					<p>吐蕃是由古代藏族在青藏高原建立的政权，
+						（公元633年-842年 ）吐蕃位于唐的西南部，
+						是唐的藩属国，唐和吐蕃间既有以和亲方式为纽带的舅甥关
+						系，又有因边境冲突引发的战争关系。</p>
+
+					<p class="highlight8" style="margin-top: 300px;">新罗</p>
+					<p>新罗（公元前57年-935年），朝鲜半岛历史上的国家之一。
+						自7世纪初唐与新罗缔结新型宗藩关系之后，
+						双方经历了从携手并进到摩擦动荡，
+						最终迎来关系正常发展的漫长历程。</p>
+
+					<p class="highlight8" style="margin-top: 300px;">南诏</p>
+					<p>南诏是中国历史上第一个统一的少数民族政权，
+						唐高宗龙朔年间（661-663年），
+						唐王朝平定了西突厥。
+						南诏与唐王朝长期处于政治上和经济上的相互依附关系。</p>
+
+					<p class="highlight8" style="margin-top: 300px;">日本</p>
+					<p>在唐代，日本被称为“礼仪君子国”，
+						是与唐处于平等关系的国家。
+						日本与唐的交往大部分靠遣唐使来完成的。</p>
+
+					<p style="margin-top: 200px;">大唐盛世，交游广博，诗书往来，情谊深厚。
+						其间，大唐与吐蕃，往来最为频繁，共计280次。
+						次之，大唐与新罗，交好亦盛，总计一百六十二次。
+						此等交往，不仅彰显大唐之繁荣，亦见诸国之和谐共处，文化交融，世代相传。</p>
+				  </div>
+				</div>
+			</div>
+			<script>
+				window.addEventListener('scroll', function() {
+					var image = document.getElementById('fixedImage');
+					var scrollPosition = window.scrollY;
+				
+					// Array of image sources with corresponding scroll distances
+					var images = [
+					{ src: './image/wanguo/image1.png', distance: 3000 },    // 第一张图片从页面顶部开始切换
+					{ src: './image/wanguo/image2.png', distance: 3500 },  // 第二张图片在页面滚动到300像素时切换
+					{ src: './image/wanguo/image3.png', distance: 4000 },  // 第三张图片在页面滚动到600像素时切换
+					{ src: './image/wanguo/image4.png', distance: 4500 },  // 第四张图片在页面滚动到900像素时切换
+					{ src: './image/wanguo/image5.png', distance: 5000 }  // 第五张图片在页面滚动到1200像素时切换
+					];
+				
+					// Find the appropriate image based on scroll position
+					var currentImage;
+					for (var i = images.length - 1; i >= 0; i--) {
+					if (scrollPosition >= images[i].distance) {
+						currentImage = images[i];
+						break;
+					}
+					}
+				
+					// Set image source
+					if (currentImage) {
+					image.src = currentImage.src;
+					}
+				});
+			</script>
+		</div>
+		
+	<!-- wanguogroup03 -->
+		<div class="wanguogroup03">
+			<img src="./image/wanguo/tu-3.png" class="tu-3">
+			<img src="./image/wanguo/tu-3-2.png" class="tu-3-2">
+			<div class="grouptext-03">
+				<p class="highlight5">走水路</p>
+				<p>诗海泛舟，意象纷呈。</p>
+				<p><span class="highlight1">浮云沧海，沧溟千万，积水连天。</span>众多意向中，有指辽阔无边的海洋的
+					:“浮云沧海远(钱起)，“沧溟千万里”(刘慎虚)，
+					也有描述海洋之宽广、深远“积水不可极，安知沧海东”(王维)，
+					“明月不归沉碧海”(李白)，“积水连天何处通”(刘长卿)，
+					从而言海之辽阔，航途之遥。</p>
+				<p>烟波望穷，洪波翻涌，波涛欲陷，电闪雷鸣，
+					有指汹涌的波涛的:“烟波望不穷”(全济时)，
+					“不惧洪波远”(许兰)，“翻浪欲陷天”(幻梦)等，
+					亦有“波翻夜作电、鲸吼昼为雷(林宽)
+					尽绘海之汹涌，航之惊险。</p>
+			</div>
+		</div>
+
+	<!-- wanguogroup04 -->
+		<div class="wanguogroup04">
+			<img src="./image/wanguo/tu-4.png" class="tu-4">
+			<div class="grouptext-04">
+				<p><span class="highlight1">海上风云，变幻莫测。</span>
+					“鼙喧时为骇长鲸”(颜萱)，鲸为海中巨兽，既显海之壮阔，又示航之危险。</p>
+				<p>此等意象，非徒绘景，亦映人心。
+					航海者之不安、恐惧，以及对旅者之忧，
+					皆寓其中。诗中海象，既是自然之描，亦是人心之写。</p>
+			</div>
+		</div>
+
+	<!-- wanguogroup05 -->
+		<div class="wanguogroup05">
+			<img src="./image/wanguo/tu-5.png" class="tu-5">
+			<img src="./image/wanguo/tu-5-2.png" class="tu-5-2">
+			<div class="grouptext-05">
+				<p class="highlight5">秋季为主</p>
+				<p>每逢秋季，使者等来唐人员从唐朝回国，海风送爽，正是归帆好时节。
+					东北季风自陆地吹向大海，为其归途添上顺风，
+					舟行如飞，既快捷又平安。此季风之便，让其得以乘风破浪，
+					心系家国，不负使命，安然抵达。</p>
+			</div>
+		</div>
+
+    </div>
+
+<!-- 商贸经通 -->
+    <div id="pt2">
+        <div class="image2" style="height: 230px;">
+			<h3><img src="./image/标题/商贸经通.png" class="resized-image"></h3>
+		</div>
+	<!-- shangmaogroup01 -->
+		<div class="shangmaogroup01">
+			<img src="./image/shangmao/tu-1.png" class="tu-1">
+			<div class="grouptext-01">
+					<p>自古以来，华夏有云：“通四方之物，故谓之商”，“通物曰商，居卖曰贾”。斯言至理，道出了商业之本质。</p>
+					<p>唐代，乃中华历史上赫赫盛名之封建王朝，其疆域辽阔，交通纵横，成为东亚乃至世界之枢纽，不仅国内市井繁荣，商旅络绎，更吸引了海外商贾，远涉重洋，慕名而至，携异域之奇珍，来我中华，交易通商，互利互惠。</p>
+			</div>
+		</div>
+		
+	<!-- shangmaogroup02 -->
+		<div class="shangmaogroup02">
+			<img src="./image/shangmao/tu-2.png" class="tu-2">
+			<img src="./image/shangmao/tu-2-2.png" class="tu-2-2">
+			<img src="./image/shangmao/tu-2-3.png" class="tu-2-3">
+			<div class="grouptext-02">
+				<p><span class="highlight1">唐代经济贸易之盛况，尤为空前。《送泉州李使君之任》:“云山百越路，市井十洲人，执玉来朝，远屯还珠入贡频。”</span></p>
+				<p>据《册府元龟·外臣部》记载：在唐朝（618——907 年）近三百年间，与中国交往过的国家或部族一百九十多个，进行贸易的国家或政权多达一百八十多个。其贸易的商品种类包括但不限于动物类、植物类、药物类、香料类；盐酒、丝织物类等。</p>
+			</div>
+		</div>
+
+	<!-- shangmaogroup03 -->
+		<div class="shangmaogroup03">
+			<div class="grouptext-03">
+				<p><span  class="highlight1">唐代贸易之国家机构与贸易举措，亦为后世所称道。</span>国力空前强盛，在广州设市舶使，掌管对外贸易，开创了历史上长达千余年的市舶制度，开辟了“广州通海夷道”（从广州到大食国）的贸易航线，出现了“大舶参天万舶争先”的图景.</p>
+			</div>
+		</div>
+
+
+		<div class="juanma-container">
+			<div class="circle-container">
+				<div class="dot" data-text="开成五年(840)\n回鹘宰相勿笃公叛可汗将图归义,\n遣人献良马三百,以求接应."></div>
+				<div class="dot" data-text="大和七年(830)三月\n回纥李义节等将驼马到."></div>
+				<div class="dot" data-text="大和四年(830)三月\n回鹘遣相梅录李畅以马万匹互市."></div>
+				<div class="dot" data-text="大和三年(829)正月\n中使以绢二十三万匹赐回纥充马价."></div>
+				<div class="dot" data-text="大和元年(827)六月\n命中使以绢二十万匹\n付鸿胪寺宣赐回鹘充马价."></div>
+				<div class="dot" data-text="大和元年(827)三月\n内出绢二十六万匹赐回纥充马价."></div>
+				<div class="dot" data-text="长庆二年(822)十二月\n以绢八万匹偿回纥马直."></div>
+				<div class="dot" data-text="长庆二年(822)四月\n又赐回纥马价绢七万匹."></div>
+				<div class="dot" data-text="长庆二年(822)二月\n以绢五万匹赐回纥充马价."></div>
+				<div class="dot" data-text="元和十一年(816)四月\n以绢二万五千匹偿回纥马直."></div>
+				<div class="dot" data-text="元和十一年(816)二月\n以内库缯、绢六万匹偿回马直."></div>
+				<div class="dot" data-text="元和十年(815)十二月\n以绢九万七千匹偿回纥马直."></div>
+				<div class="dot" data-text="元和十年(815)八月\n以绢十万匹偿回之马直."></div>
+				<div class="dot" data-text="元和四年(809)左右\n达览将军等至,\n省表,其马数共六千五百匹."></div>
+				<div class="dot" data-text="贞元八年(792)七月\n给回市马绢七万匹(或十万匹)."></div>
+				<div class="dot" data-text="贞元六年(790)六月\n回纥使移职伽达干归蕃,\n赐马价绢三十万匹"></div>
+				<div class="dot" data-text="乾元元年(758)六月\n回鹘献马500匹"></div>
+				<div class="dot" data-text="乾元年间(758-760)\n肃宗乾元中回鹘仍岁来市,\n一马一匹易绢四十匹,\n动至数万马."></div>
+				<div class="dot" data-text="永泰元年(765)闰十月\n回进马,及宴别,\n前后资绿十万匹而还."></div>
+				<div class="dot" data-text="大历八年(773)八月\n回鹤遣赤心领马一万四来求市,\n帝以马价出于租赋不欲重困于民,\n命有司量入计许市六千匹."></div>
+				<div class="dot" data-text="建中元年(780)八月\n源休受命出使漠北,\n顿莫贺可汗使谓休曰:\n“所欠吾马直绢一百八十万延,\n当速归之.”\n遣散支将军康赤心等随休来朝,\n至赤心归,唐与之帛十万匹,\n金银十万两偿其马直."></div>
+				<div class="dot" data-text="贞元三年(787)八月\n,癸亥,遣回使者合阙将军归,\n许以咸安公主妻可汗,\n归其马价绢五万匹."></div>
+			</div>
+		</div>
+		<div class="tooltipjuma"></div>
+
+	<!-- shangmaogroup04 -->
+		<div class="shangmaogroup04">
+			<div class="grouptext-04">
+				<p class="highlight3" style="line-height:0px;">陆上：互市贸易</p>
+				<p>“互市”，是中原王朝与边境地区各蕃国、海外诸国之间通商贸易的统称。唐朝初期统治者将涉外贸易的重心放在陆上贸易通道上，重视与周边各政权的互市贸易。</p>
+				<p>唐朝比较出名的涉外贸易有与漠北回纥的“绢马互市”，因回纥曾帮助唐朝统治者摆平 “安史之乱”所以两国处于友好状态，因此维持了较长时间及较大货物数量的涉外贸易往来。</p>
+			</div>
+			<div class="grouptext-04-2">
+				<p style="font-size: 14px; color: rgba(0, 0, 0, 0.658);">点击外侧圆点，查看“绢马互市”详细信息</p>
+			</div>
+		</div>
+
+	<!-- shangmaogroup05 -->
+		<div class="shangmaogroup05">
+			<img src="./image/shangmao/tu-5.png" class="tu-5">
+			<img src="./image/shangmao/tu-5-3.png" class="tu-5-2">
+			<div class="grouptext-05">
+				<p class="highlight3" style="line-height:0px;">海上：市舶使</p>
+				<p>唐玄宗开元间（713年—741年），广州即设有市舶使，在地方港口掌管市舶事务，由皇帝直接派宦官或其他官员担任，由中央垂直管辖，独立于地方官府。</p>
+				<p>唐朝中后期，尤其天宝年间，由于与西部、西北部政治关系交恶，唐朝统治者开始在东南沿海探索新的涉外贸易形式。</p>
+			</div>
+		</div>
+
+	<!-- shangmaogroup06 -->
+		<div class="shangmaogroup06">
+			<img src="./image/shangmao/tu-6.png" class="tu-6">
+			<div class="grouptext-06">
+				<p class="highlight3">广州通海夷道</p>
+				<p style="line-height:0px;">——海上丝绸之路的最早叫法</p>
+				<p>据《新唐书·地理志》记载，广州通海夷道以广州为起点，全长1.4万公里，是当时世界上最长的远洋航线，是一条通往东南亚、印度洋北部诸国、红海沿岸、东北非和波斯湾诸国的海上航路，是我国海上丝绸之路的最早叫法。</p>
+			</div>
+		</div>
+
+	<!-- shangmaogroup07 -->
+		<div class="shangmaogroup07">
+			<img src="./image/shangmao/tu-7.png" class="tu-7">
+			<div class="grouptext-07">
+				<p class="highlight1" style="font-size: 19px;">唐朝对外贸易政策，不仅促进了唐与世界之经济文化交流，更为唐后诸朝代与世界之经济往来，奠定了坚实之基础，影响深远。</p>
+			</div>
+		</div>
+	</div>
+
+<!-- 广纳贤才 -->
+    <div id="pt3">
+        <div class="image3" style="height: 230px;">
+			<h3><img src="./image/标题/广纳贤才.png" class="resized-image03"></h3>
+		</div>
+	<!-- xiancaigroup01 -->
+		<div class="xiancaigroup01">
+			<img src="./image/xiancai/tu-1.png" class="tu-1">
+			<img src="./image/xiancai/tu-1-2.png" class="tu-1-2">
+			<img src="./image/xiancai/tu-1-3.png" class="tu-1-3">
+			<img src="./image/xiancai/tu-1-4.png" class="tu-1-4">
+		</div>
+	
+	<!-- xiancaigroup02 -->
+	<div class="xiancaigroup02" style="height:200vh;">
+   		<div class="green-layer">
+			<div>
+        	<h2>留学生</h2>
+				<p>唐初开始，就有大批外国留学生来唐，外国留学生赴唐求学情景在唐人赠诗中多有表现。</p>
+				<p class="highlight1">“已而高丽、百济、新罗、高昌、吐蕃、诸国、酋长，亦遣子弟请入国学。于是国学之内，八千余人。国学之盛，近古未有。”</p>
+				<p>留学生一般都是国内或政权内的贵族子弟，来唐的主要目的是学习先进的文化和制度，大多就读于国子监所属的国子学、太学、四门学、书学、算学以及太医署直辖的医学等学馆，学习的门类非常广泛。</p>
+				<p>留学生学习的年限一般都比较长，虽然唐政府规定的学习期限是九年，但有很多留学生在唐停留时间长达十几年或数十年不等，有的甚至终老于唐，由少年变成翁。</p>	
+			</div>
+		</div>
+		<div class="green-layerz">
+			<div>
+        		<h2>僧人</h2>
+				<p>唐代佛教发展迅速，“两京作为当时的政治、文化和国际交流中心，同时又是宗教活动中心。唐贞观年间，“太宗下诏于兴善寺设立译场，规模宏大。”</p>
+				<p>武宗朝到长安，记录下长安城里坊内佛堂三百余所”的景象。僧人既有来唐传播宗教的僧人，如景教、摩尼教、祅教、伊斯兰教的传教僧；也有来唐学习和弘扬佛法的佛教僧徒。</p>
+				<p><span class="highlight1">“大师冻死来不得”、“海里更行三十国”、“行多耳断金环落”</span>僧人往往长途跋涉，凭借坚强的意志，克服艰苦环境，赴唐传法的过程。</p>
+				<p>在佛教僧中还有一类人员——留学僧，他们是到唐朝学习的僧人，大多来自受唐朝影响较大的东亚国家。</p>
+				<p>留学僧一般都是进入寺院跟随佛教高僧学习，一些留在长安的各大佛教寺院中，成就较高的还会受到统治者的礼遇；也有前往地方一些有高僧驻锡的寺院去学习，足迹遍布唐代的各大名川。</p>
+			</div>
+    	</div>
+	</div>
+	<!-- xiancaigroup03 -->
+	<div class="xiancaigroup03" style="height:200vh;">
+   		<div class="green-layer">
+			<div>
+        	<h2>交往使者</h2>
+				<p>据初步统计，有唐一代的289年间，约有<span class="highlight1">71</span>个国家遣使来华共<span class="highlight1">582</span>次（何芳川：《古代来华使节考论》，《北京大学学报》2005年第3期）。</p>
+				<p><span class="highlight1">朝贡使者：</span>少数民族政权和其他国家向唐王朝派遣的贡献方物即特产的使者，也是向唐王朝派遣的数量最多的一类使者。随着唐王朝的影响越来越大，距离较远的亚洲和欧洲的一些国家如天竺、大食、波斯等国家也纷纷派遣使者来到唐朝。</p>
+				<p><span class="highlight1">朝贺使者：</span>唐王朝有重大喜庆之时，少数民族政权和其他国家派往唐王朝表示祝贺的使者，他们一般会在元正、平叛胜利、立太子等时出现，以贺正使者为多。</p>
+				<p><span class="highlight1">求请使者：</span>派遣到唐王朝请求在某些方面给予支援的使者，因其求请内容不同一般可分为求婚使者、求封使者、求援使者。</p>
+				<p><span class="highlight1">告哀使者：</span>周边民族政权和其他国家在其首领死后派遣到唐王朝传递信息的使者。</p>	
+			</div>
+		</div>
+		<div class="green-layerz">
+			<div>
+        		<h2>外国商人</h2>
+				<p class="highlight1">商人是唐朝重要的沟通媒介和桥梁。</p>
+				<p>由于唐王朝实行了较为开明的民族政策以及对外政策，周边地区的各少数民族商人纷纷来到国都长安，甚至不少外国商人也被吸引到长安来经商。</p>
+				<p>长安作为隋唐王朝的国都，又是著名的贸易干线——丝绸之路的起点，从而使长安成为少数民族商人和外国商人的聚集之地。长安的少数民族商人主要是北方地区和西域诸族的商人，而外国商人则主要来自中亚、西亚各国。</p>
+				<p><span class="highlight1">“伊吾之右，波斯以东，职贡不绝，商旅相继”。(《唐大诏令集》卷130《讨高昌麴文泰诏》)</span></p>
+				<p>商人的经营活动有力地促进了各族之间的经济交流，加强了内地与周边地区的经济联系。对于外国商人而言，他们将外国的各种商品贩运到长安，促进了长安市场的繁荣；同时他们又把中国的茶叶、丝绸、纸张、药材等商品运往国外，促进了中国与世界各国的商业往来。</p>
+			</div>
+    	</div>
+	</div>
+	<!-- xiancaigroup04 -->
+	<div class="xiancaigroup04">
+		<img src="./image/xiancai/tu-4-2.png" class="tu-4-2">
+		<img src="./image/xiancai/tu-4-3.png" class="tu-4-3">
+		<img src="./image/xiancai/tu-4-4.png" class="tu-4-4">
+		<div id="image-slider">
+			<div class="slider-dots">
+				<span class="slider-dot active" data-index="0"></span>
+				<span class="slider-dot" data-index="1"></span>
+				<span class="slider-dot" data-index="2"></span>
+				<span class="slider-dot" data-index="3"></span>
+				<span class="slider-dot" data-index="4"></span>
+				<span class="slider-dot" data-index="5"></span>
+			</div>
+			<div class="slider">
+				<img src="./image/xiancai/tu-4-5.png" class="image active" alt="Image 1">
+				<img src="./image/xiancai/tu-4-6.png" class="image" alt="Image 2">
+				<img src="./image/xiancai/tu-4-7.png" class="image" alt="Image 3">
+				<img src="./image/xiancai/tu-4-10.png" class="image" alt="Image 4">
+				<img src="./image/xiancai/tu-4-8.png" class="image" alt="Image 5">
+				<img src="./image/xiancai/tu-4-9.png" class="image" alt="Image 6">
+			</div>
+		</div>
+		<script>
+			// script.js
+			document.addEventListener("DOMContentLoaded", function() {
+				const slider = document.getElementById('image-slider');
+				const sliderDots = slider.querySelectorAll('.slider-dot');
+				const images = slider.querySelectorAll('.image');
+	
+				sliderDots.forEach(sliderDot => {
+					sliderDot.addEventListener('click', function() {
+						const index = this.getAttribute('data-index');
+						
+						// Remove active class from all images and slider-dots
+						images.forEach(img => img.classList.remove('active'));
+						sliderDots.forEach(sd => sd.classList.remove('active'));
+	
+						// Add active class to the clicked slider-dot and corresponding image
+						images[index].classList.add('active');
+						this.classList.add('active');
+					});
+				});
+			});
+		</script>
+	</div>
+
+	
+	<!-- xiancaigroup07 -->
+		<div class="xiancaigroup07">
+			<img src="./image/xiancai/tu-7.png" class="tu-7">
+			<div class="grouptext-07">
+				<p class="highlight1" style="font-size: 19px;">
+					唐朝，国力鼎盛，尤重人才汇聚天下之英才，各展其长不仅促进了文化之繁荣，
+					亦推动了经济之发展使大唐成为世界文明之璀璨瑰宝。其重视人才之策，实为治国兴邦之要道</p>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- 文化荟萃 -->
+    <div id="pt4" style="margin-bottom:0px;">
+		<div style="height: 0px;"></div>
+        <div class="image4" style="height: 230px;">
+			<h3><img src="./image/标题/文化荟萃.png" class="resized-image03"></h3>
+		</div>
+	<!-- wenhuagroup01 -->
+		<div class="wenhuagroup01">
+			<img src="./image/wenhua/tu-1.png" class="tu-1">
+			<img src="./image/wenhua/tu-1-2.png" class="tu-1-2">
+			<div class="grouptext-01">
+				<p>在盛世大唐，使节之往来络绎不绝，官府与民间学者交流绵密，经济旅游之活动尤为密切。此等背景下，唐朝体育文化亦显璀璨，既承继本民族之传统体育，又广纳四夷之体育文化精粹。体育文化交流成为盛唐文明与世界沟通之桥梁。</p>
+				<p class="highlight1">《旧唐书·高丽传》记载高丽国人“好围棋投壶之戏，人能蹴鞠”，可见围棋、马球、投壶在当时体育文化中传播范围之广。</p>
+			</div>
+		</div>
+
+	<!-- wenhuagroup02 -->
+		<div class="wenhuagroup02">
+			<img src="./image/wenhua/tu-2.png" class="tu-2">
+			<img src="./image/wenhua/tu-2-2.png" class="tu-2-2">
+			<div class="grouptext-02">
+				<p class="highlight5">马球</p>
+				<p>又名“击鞠”，传曰源自吐蕃，或云波斯，传入中土，迅速风靡于朝野。此戏因得皇室所重，遂成唐朝皇帝最喜之宫廷娱乐。</p>
+				<p>罗春林先生于《唐代波罗球戏考》载曰：<span class="highlight1">“国君嗜马球于上，武臣效尤于外，佳人宠佞亦争相习之，以投时好。”</span></p>
+				<p>唐朝立国三百年间，共历<span class="highlight1">十九</span>帝，史册明确记载，有<span class="highlight1">十一</span>位帝喜马球，其中技艺超群者有二。</p>
+			</div>
+		</div>
+
+	<!-- wenhuagroup03 -->
+	<div class="wenhuagroup03">
+		<img src="./image/wenhua/tu-3.png" class="tu-3">
+		<div class="grouptext-03">
+			<p>唐代宫廷中，特设“打毬贡奉”“毬工”等职，以司马球之事。上有好之者，下必有甚焉者。
+				马球运动得唐统治阶级之高度重视，故其发展之速，超其他娱乐项目。
+				富裕商贾亦对此运动在民间之普及和发展，贡献颇丰。
+				时有驴鞠之戏，供老人妇女游戏，
+				刘昫《旧唐书》载：<span class="highlight1">“聚女子骑驴击球，装饰日费数万，以为笑乐。”</span></p>
+		</div>
+	</div>
+	<!-- wenhuagroup04 -->
+	<div class="wenhuagroup04">
+		<img src="./image/wenhua/tu-4.png" class="tu-4">
+		<div class="grouptext-04">
+			<p class="highlight5">射艺</p>
+			<p>射艺于冷兵器时代之重要，自古而然。唐时，中国、日本、朝鲜三国在射艺上互有学习交流。
+				《新唐书·日本传》载日本射手曾随遣唐使团来中国，
+				“其使者须长四尺许，珥箭于首，令人戴瓠立数十步，射无不中。”射艺之高可见一斑。</p>
+			<p>日本奈良朝留唐学生吉备真备回国时，曾将“弦缠漆角弓一张，马上饮水漆角弓一张，
+				露面漆四节角弓一张，射甲箭二十支，平射箭十枚等”带回日本,
+				反映了当时中日体育器物之间的交流。</p>
+			<p><span class="highlight1">投壶，射礼之演化，文人学士间游艺。</span>
+				《新唐书·东夷列传·新罗》中亦有中朝之间射艺交流的珍贵记载
+				:“新罗，弁韩苗裔也。……八月望日，大宴赉官吏，射”。</p>
+			<p>隋唐时期，出现了投壶(主要为“骁壶”)配乐的宫廷礼乐，谓为“骁壶乐”。公元 607 － 608 年
+				日本两次遣小野妹子一行来华学礼，
+				这种游戏也随之传入日本。此后日来遣唐使节、留学生、学问僧频繁来唐，
+				骁壶乐在日本逐渐流行。</p>
+		</div>
+	</div>
+
+	<!-- wenhuagroup05 -->
+	<div class="wenhuagroup05">
+		<img src="./image/wenhua/tu-5.png" class="tu-5">
+		<div class="grouptext-05">
+			<p class="highlight5">围棋</p>
+			<p>昔日唐朝，国风鼎盛，文化广被，围棋之艺亦随之盛行，吸引海外众多慕名之爱好者。</p>
+			<p class="highlight1">围棋于唐代，非但为文娱之具，更成重要外交手段。</p>
+			<p>1）吉备真备，留学僧也，于长安深造十九载，其间专攻围棋之道。归国后，于日本积极传播棋艺，对彼邦棋坛影响甚巨。</p>
+			<p>2）弁正法师，亦日本留学僧，酷爱围棋，随遣唐使团来华，终老于唐。
+				新罗朴球，棋力非凡，曾受唐懿宗或僖宗之聘，任棋待诏。
+				据《旧唐书·宣宗本纪》载，大中二年春，日本国王子入朝，贡方物，
+				王子善弈，帝命待诏顾师言与之对弈。赛事中，中日双方棋艺相当，至三十三着，胜负未分。
+				师言惧辱君命，汗手凝思，方敢落子。鏖战之后，王子瞪目缩臂，已伏不胜，顾师言终获胜。
+				此可见，唐时日本国宫廷中棋艺已臻高境。</p>
+		</div>
+	</div>
+	
+	<!-- wenhuagroup06 -->
+	<div class="wenhuagroup06">
+		<img src="./image/wenhua/tu-6.png" class="tu-6">
+		<img src="./image/wenhua/tu-6-2.png" class="tu-6-2">
+		<img src="./image/wenhua/tu-6-3.png" class="tu-6-3">
+		<div class="grouptext-06">
+			<p>唐朝时期，昔有胡乐器，自远域传入中原，历经改良，融入诸多中华元素。在汉土之上，
+				其音韵渐与中土音乐相融，终成中原百姓所喜之器。琴瑟和鸣，琵琶悠扬，胡汉交融，共谱华章。
+				如此，胡乐不再独异，而成我中华音乐文化之瑰宝，流传于世，深受民众钟爱。</p>
+
+		</div>
+	</div>
+
+	<!-- wenhuagroup07 -->
+	<div class="wenhuagroup07">
+		<img src="./image/wenhua/tu-7.png" class="tu-7">
+		<div class="grouptext-07">
+			<p class="highlight5">琵琶</p>
+			<p>唐世之际，曲项琵琶自异域东来，中土乐工深究其材，琴首背板，
+				紫檀红木之坚硬为上选；音梁音柱，则以桐木之轻为宜。
+				京师故宫宝库，珍存唐代花瓷细腰鼓，本出胡地，初以瓦为之，唐人以陶瓷代之，工艺精妙，
+				世所罕见，且其烧制之瓷，外饰唯美雅致，唯唐一代有之，后则失传。</p>
+			<p>漆料之选，亦关乐器之声质。
+				唐代油漆工藝，巧夺天工，超迈西域，故胡乐入华，
+				必易以优材之漆，以增音乐之妙。</p>
+			<p>曲项琵琶初来，仅四音位，后演为四项十二品，
+				十六音位，音色共鸣，大为丰盈。其颈拓宽，音响下由宽渐窄，
+				便于换弦易把，控音色之微。铜鼓之身，绘饰花鸟鱼虫，各尽其妙。</p>
+			<p>自唐伊始，对胡琵琶之改良，
+				音色弹法，皆有创新。胡乐东渐，
+				速被中原所纳，与本土音乐交融，朝野皆喜，
+				终成华夏乐器之宝。</p>
+		</div>
+	</div>
+
+	<!-- wenhuagroup08 -->
+	<div class="wenhuagroup08">
+		<img src="./image/wenhua/tu-8.png" class="tu-8">
+		<img src="./image/wenhua/tu-8-2.png" class="tu-8-2">
+		<div class="grouptext-08">
+			<p class="highlight5">古筝</p>
+			<p>唐季盛世，中华与诸国交聘频繁，古筝随入唐使者东渐，
+				遍及东亚诸邦。彼时，日本自宫阙至闾阎，皆掀起古筝学习之风潮。至今，
+				古筝于日本已自成一体，日人名之为koto，以五声音阶为主，
+				然因中日两国文化背景之异，筝曲风格亦各有千秋。</p>
+			<p>朝鲜之伽倻琴，亦有二千余年之传承。相传，伽倻国君仿中华古筝而制此器。
+				《三国史记》载：“伽倻琴亦法中国乐部筝而为之……”，
+				其形制演奏与中国古筝类同，却独具艺术风格与手法技巧。
+				唐时，伽倻琴日臻完善，亦受大唐宫廷所重，纳入乐部体系，
+				且增演多首带朝鲜风情之筝曲，如《歌芝栖》《舞芝栖》等作，流传至今。</p>
+		</div>
+	</div>
+
+	<!-- wenhuagroup09 -->
+	<div class="wenhuagroup09">
+		<img src="./image/wenhua/tu-9.png" class="tu-9">
+		<img src="./image/wenhua/tu-9-2.png" class="tu-9-2">
+		<img src="./image/wenhua/tu-9-3.png" class="tu-9-3">
+	</div>
+
+	<!-- wenhuagroup10 -->
+	<div class="wenhuagroup10">
+		<img src="./image/wenhua/tu-10.png" class="tu-10">
+		<div class="grouptext-10">
+			<p>唐风盛世，诗歌之中，佛韵悠长。诗家笔下，
+				法器、经典、圣地之象，常见其踪。
+				法器，佛门之宝，庄严佛坛，助修法供养。</p>
+			<p>“佛灯”亦作“长明灯”，照亮心灵，指引迷途。
+				诗中常绘佛灯微光、戒香袅袅、珠串轻捻、
+				木鱼声声、袈裟披身、如意瓶净、佛爪轻抚、振锡笃行。</p>
+			<p>经典，佛经之文，贝叶、贝多纸、乾竺法、真乘，皆为诗中其替代意象。
+				如孟光、全济时、行满的同题诗《送最澄上人还日本国》
+				中分别有:<span class="highlight1">“众香随贝叶”、“来求贝叶偈”，“贝叶翻经疏”</span>等句，
+				贝叶原指贝多罗树的叶子，印度人多用它来抄写佛经，此后贝叶就多指代佛经。
+				这些有关佛教经典意象的出现，多用于说明僧侣求法的学有所获、满载而归。</p>
+		</div>
+	</div>
+
+	<!-- wenhuagroup11 -->
+	<div class="wenhuagroup11">
+		<img src="./image/wenhua/tu-11.png" class="tu-11">
+		<div class="grouptext-11">
+			<p>佛教场所，修行之地，禅院、禅林、慧苑、梵室，松堂、
+				禅扉，皆为诗中静谧之所。
+				颜萱《送圆载上人》以“禅林”“梵室”绘修行之境，
+				司空图《赠日东鉴禅师》以“松堂”“飞萤”映照禅心。</p>
+			<p>佛教圣地，道场之名，灵鹫、梵宫、娑婆、净国，虽非实境，
+				却庄严诗篇。思托“月隐归灵鹫”，
+				法进“化毕分身归净国”，皆以圣地意象，显佛门庄严。</p>
+			<p>唐诗歌中，佛教意象，丰富语言，渲染气氛，
+				寓情于景，情景交融，佛光普照，诗意盎然。</p>
+		</div>
+	</div>
+
+	<!-- wenhuagroup12 -->
+	<div class="wenhuagroup12">
+		<img src="./image/wenhua/tu-12.png" class="tu-12">
+		<img src="./image/wenhua/tu-12-2.png" class="tu-12-2">
+		<div class="grouptext-12">
+			<p class="highlight5">胡服</p>
+			<p>初唐盛唐，国泰民安，四夷宾服，胡风渐入。
+				男子因战备之需，率先披胡服，便捷行动。
+				女子则以美自娱，引领时尚，填补心之空寂。</p>
+			<p>元稹诗《法曲》<span class="highlight1">“女为胡妇学胡妆，伎进胡音务胡乐”;
+				“胡音胡骑与胡妆，五十年来竞纷泊”。</span>
+				唐诗歌中，佛教意象，丰富语言，渲染气氛，
+				寓情于景，情景交融，佛光普照，诗意盎然。</p>
+			<p>商人的往来也带动了胡服的传播,“舟人渔子歌回首，估客胡商泪满襟”（《全唐诗》第2册卷 218，第 270页）
+				商旅往来，胡服随之流传，舟人渔子，胡商泪洒，遍及帝国。</p>
+			<p>唐之贵族平民，皆好胡服，款式多样，酒宴之上，胡服盛行。
+				窄袖紧身，胡风满洛城。女子效胡妆，伎人奏胡乐，胡服之风，盛极一时。</p>
+			<p>胡服源自西北，回鹘突厥，波斯亦有。
+				高髻尖帽，翻领小袖，绵靴足登。
+				男女皆宜，传播迅速，生活宴会，胡服随处可见。</p>
+		</div>
+	</div>
+
+	<!-- wenhuagroup13 -->
+	<div class="wenhuagroup13">
+		<img src="./image/wenhua/tu-13.png" class="tu-13">
+		<div class="grouptext-13">
+			<p class="highlight5">冰蚕丝</p>
+			<p>冰蚕之丝，传自异域，其质非凡。
+				《乐府杂录》:唐老子本长安富家子，生计荡尽，遇老妪持旧褪，以半千获之。有
+				波斯人见之乃曰，此是冰蚕丝所织，暑月置于座，满室清凉，即酬万金。</p>
+			<p>诗中冰蚕，或与锦袍相映，或与白獭脂相提，皆以寒气仙韵，入诗入画。
+				<span class="highlight1">“吴女秋机织曙霜，冰蚕吐丝月盈筐”（《全唐诗》第 3册卷 497，第 1062 页。）
+				“逢人借问陶唐主，欲进冰蚕五色丝”（《全唐诗》第3册卷 463，第 770 页）</span>
+				《全唐诗》中，冰蚕之典，虽与西域无关，诗人借之，以抒胸臆。
+				舶来之物，唐人接纳化用，其自然属性，更引诗心，记之于诗，流传千古。</p>
+		</div>
+	</div>
+
+	<!-- wenhuagroup14 -->
+	<div class="wenhuagroup14">
+		<img src="./image/wenhua/tu-14.png" class="tu-14">
+		<img src="./image/wenhua/tu-14-2.png" class="tu-14-2">
+		<div class="grouptext-14">
+			<p class="highlight5">朝霞布</p>
+			<p>朝霞之布，名自其色，如晨曦初照，绚烂夺目。
+				古籍载："周成王六年，燃丘国使献云霞布，即今之朝霞布也。"
+				（(明)陈耀文：《天中记》，《影印文渊阁四库全书》本，
+				台湾：台湾商务印书馆 1983 年版，第967卷 50，第407页。）</p>
+			<p>唐时，此布多自南疆邻国贡来，<span class="highlight1">"朝霞布，西屠夷头黎，贞观时献朝霞布"</span>
+				（(明)陈耀文：《天中记》，《影印文渊阁四库全书》本，
+				台湾：台湾商务印书馆 1983 年版，第967卷 50，第411页。）</p>
+			<p>多篾国亦然，南海边之邦，国界辽阔，自成一统，不属他国，其地富饶，
+				物产丰盈，朝霞、朝云之布，尤为珍贵。唐人以霞为梦幻之象，
+				朝霞布自武安州贡，王勃诗赞：<span class="highlight1">"芳屏画春草，仙杼织朝霞。"</span>
+				（《全唐诗》第1册卷 45，第 393 页。）
+				此布不仅物华天宝，亦承载着唐人对仙境的无限向往。</p>
+		</div>
+	</div>
+	
+	<!-- wenhuagroup15 -->
+	<div class="wenhuagroup15">
+		<img src="./image/wenhua/tu-15.png" class="tu-15">
+		<img src="./image/wenhua/tu-15-2.png" class="tu-15-2">
+		<img src="./image/wenhua/tu-15-3.png" class="tu-15-3">
+		<div class="grouptext-15">
+			<p class="highlight1">唐朝盛世，万国来朝，文化交融，气象万千。
+				体育竞技，显壮志凌云；音乐和鸣，奏盛世和谐。服饰华美，映照时代风尚；宗教多元，映照心灵信仰。
+				四方宾客，携异域风情，汇聚长安，共绘大唐文化之瑰宝。
+				此乃盛唐之风貌，开放包容，海纳百川，成就一代文化之繁荣。</p>
+		</div>
+	</div>
+	<div style="height: 50px;"></div>
+
+
+
+<!-- 结语卷轴 -->
+	<div class="jieyugroup01">
+		<div class="groupWe">
+			<div class="imgBg">
+				<div class="imgBg01">
+					<div class="imgBg02">
+						<p class="text01 copyright01" style="display: block;;">
+							<img src="./image/jieyu/tu-1.png">
+						</p>
+						<p class="text02 copyright02" style="display: none; text-align: center;">
+							<img src="./image/jieyu/tu-1-2.png">
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+    <!--参考文献等-->
+    <div style="margin-bottom:0px;">
+        <div class="imagecankao">
+            <div style="height: 490px;">
+			<div style="height: 30px;"></div>
+			<p class="cankao">参考资料：</p>
+			<p class="cankao">
+				[1]刘烨.基于《全唐诗》的唐代服饰研究[D].华中师范大学,2019.<br>
+				[2]代昕.唐朝时期东亚地区筝文化的发展[J].北方音乐,2019,39(03):245-246.<br>
+				[3]刘芳.唐朝胡乐入华源流及其对华夏音乐影响研究[J].贵州民族研究,2019,40(03):161-165.<br>
+				[4]王小盾.汉文化视野中的东亚和东南亚音乐[J].音乐研究,2021,(02):46-64.<br>
+				[5]冯立君.唐朝与东亚[M].社会科学文献出版社,2019.<br>
+				[6]百宁.《全唐诗》对外交往类诗歌研究[D].东北师范大学,2016.<br>
+				[7]王艳娜.唐朝主流体育活动现世类型化考究[J].体育科技文献通报,2020,28(12):124+127.<br>
+				[8]李云.《南诏奉圣乐》考略[D].云南艺术学院,2013.<br>
+				[9]王其书.南诏奉圣乐、骠国乐与隋、唐燕乐——西南丝绸之路音乐文化考察研究之二[J].音乐探索,2009(01):3-7+14.<br>
+				[10]李博昊.古缅甸骠国乐舞入唐考论[J].学术交流,2011(10):186-189.<br>
+				[11]王艳娜.唐朝主流体育活动现世类型化考究[J].体育科技文献通报,2020,28(12):124+127.<br>
+				[12]张祝平.日本遣唐使与唐朝体育文化东传问题研究[J].浙江体育科学,2016,38(05):121-124.<br>
+				[13]李刚.从唐朝诗赋看唐朝体育消费的特点[J].成功(教育),2012(24):291.<br>
+				[14]樊云庆.交流·融合:唐代体育繁盛的文化社会学分析[J].成都体育学院学报,2013,39(10):50-53.<br>
+			</p>
+			<p class="cankao" style="text-align: center;">团队成员：郑凝 游乐怡 谢依莎</p>
+			<p class="cankao" style="text-align: center;">指导教师：赵甜芳 刘小丽</p>
+			<p class="cankao" style="text-align: center;">© 暨南大学 · 新闻与传播学院</p>
+        	</div>
+    	</div>
+	</div>
+
+<!-- script -->
+
+<script language="javascript" src="./js/imgPreload.js"></script>
+<script language="javascript" src="./js/index.js" ></script>
+<script language="javascript" src="./js/juanma.js"></script>
+<script language="javascript" src="./js/ditu.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- 导航栏显示 -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var navbar = document.getElementById("menu");
+        window.onscroll = function() {
+            var scrollHeight = window.pageYOffset || document.documentElement.scrollTop;
+            var threshold = 680; // 设置滚动高度的阈值，根据需要调整
+
+            if (scrollHeight > threshold) {
+                navbar.classList.remove("navbar-hidden");
+            } else {
+                navbar.classList.add("navbar-hidden");
+                }
+            };
+        });
+    </script>
+
+<!-- 控制卷轴 -->
+<script>$(document).ready(function(){
+    $(".groupWe .imgBg02").mouseenter(function(){
+        $(".groupWe .text01").hide();
+        $(".groupWe .text02").show();
+        $(".groupWe .imgBg").stop(true).animate({"width":"23.17em"}, 300, function(){
+            $(".groupWe .imgBg01, .imgBg02").css("background", "none");
+        });
+    });
+
+    $(".groupWe .imgBg02").mouseleave(function(){
+        $(".groupWe .imgBg01, .imgBg02").attr("style", "");
+        $(".groupWe .imgBg").stop(true).animate({"width":"4.88em"}, 300, function(){
+            $(".groupWe .text02").hide();
+            $(".groupWe .text01").show();
+        });
+    });
+});</script>
+
+<!-- 控制四个图片大小的script -->
+<script type="text/javascript">
+	var deviceWidth = document.documentElement.clientWidth;
+	var deviceHeight = document.documentElement.clientHeight;
+	var documentFontSize =  deviceWidth/28.80+"px";
+	document.documentElement.style.fontSize = documentFontSize;
+	$(window).resize(function(){
+		deviceWidth = document.documentElement.clientWidth;
+		deviceHeight =document.documentElement.clientHeight;
+		documentFontSize =  deviceWidth/28.80+"px";
+		document.documentElement.style.fontSize = documentFontSize;
+	})
+</script>
+
+</body>
+</html>
